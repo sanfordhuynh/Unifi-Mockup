@@ -1,0 +1,14 @@
+/* BASE- Base Styles, variables, mixins, reset */
+@import '_variables.scss';
+
+/* Components - typography, blocks, buttons, sections, components*/
+@import '_sections.scss'; 
+
+/* Layout - page layout styles */
+@import 'layout/_nav.scss';
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
+
+
+/*Import sass bootstrap styling  */
+@import 'vendor/bootstrap-custom.scss';

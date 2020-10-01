@@ -1,0 +1,75 @@
+header{
+    z-index: 99999;
+    height: 80px;
+    background: #13426F;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    right: 0px;
+}
+
+ul.nav.navbar-nav.navbar-right{
+    margin-right: 0;
+}
+
+.row.topContainer:after{
+    // content: "";
+    width: calc(100% - 80px);
+    height: 650px;
+    background: #13426f;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: -100px;
+}
+
+.row:after{
+    clear:both;
+}
+
+.containerTop{
+    margin-top: 10px;
+    margin-left: 40px;
+    .btn{
+        background-color: $light-blue;
+        color: white;
+    }
+    img{
+        margin-right: 50px;
+    }
+}
+
+.navbar-nav{
+    float: left;
+    margin: 0;
+}
+
+#products{
+    color:white;
+}
+
+#solutions{
+    color: white;
+}
+
+#resources{
+    color: white;
+}
+
+#news{
+    color: white;
+}
+
+#about{
+    color:white
+}
+
+#account{
+    color:white;
+}
+
+#try{
+    margin-right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

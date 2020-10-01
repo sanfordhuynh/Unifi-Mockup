@@ -1,0 +1,317 @@
+body {
+  overflow-x: hidden;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: hidden;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.unifiparagraph {
+  color: white;
+  position: absolute !important;
+  margin-left: 53%;
+  margin-top: 100px;
+  padding-right: 280px;
+  left: -460px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.solutions {
+  h1 {
+    color: $dark-blue;
+    font-size: 54px;
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .bar {
+    display: inline-flex;
+  }
+  .moreInformation {
+    color: #9b9b9b;
+    word-spacing: 45px;
+    padding-left: 100px;
+    margin-bottom: 100px;
+    //padding-bottom: 40px;
+    // text-align:center;
+  }
+  .loremInfo {
+    // top right bottom left
+    padding: 0 55px 0px 100px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .download {
+    background-color: white;
+    color: $light-blue;
+    border: 2px solid $light-blue;
+    padding: 10px 135px;
+    margin-top: 20px;
+  }
+  .moreInformation span {
+    color: $light-blue;
+    border: 0;
+    border-bottom: 2px solid $light-blue;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.pictures {
+  img {
+    width: 100%;
+  }
+  h4 {
+    display: inline-block;
+  }
+  .picDescription {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px 50px 10px;
+    padding-bottom: 10px;
+    min-height: 190px;
+  }
+  .learn {
+    position: absolute;
+    background-color: white;
+    color: $light-blue;
+    border: 2px solid $light-blue;
+    padding: 5px 10px;
+    float: right;
+    right: 30px;
+    bottom: 20px;
+  }
+}
+
+.blog-news {
+  padding-top: 50px;
+  .blog {
+    display: inline-block;
+    width: 100%;
+    box-shadow: $shadow;
+    margin: 0;
+    padding: 15px 0 10px 35px;
+    margin-bottom: 30px;
+  }
+  .glyphicon {
+    color: $light-blue;
+    border: 2px solid $light-blue;
+    padding: 3px 3px 4px 4px;
+    border-radius: 40px;
+    margin-right: 20px;
+  }
+  .arch {
+    background-color: #f6f3ed;
+    padding: 155px 30px 125px 30px;
+  }
+  .archText {
+    position: absolute;
+    bottom: 95px;
+    font-size: 30px;
+    padding-right: 105px;
+    left: 40px;
+  }
+  .news {
+    display: inline-block;
+    width: 100%;
+    box-shadow: $shadow;
+    margin: 0;
+    padding: 15px 0 10px 35px;
+  }
+}
+
+.studies {
+  .architecture {
+    overflow: hidden;
+    height: 352px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .building {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .glass {
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 0;
+    padding: 15px 0px 10px 35px;
+  }
+  .stantec {
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+  }
+  .glyphicon {
+    color: $light-blue;
+    border: 2px solid $light-blue;
+    padding: 3px 3px 4px 4px;
+    border-radius: 40px;
+    margin-right: 20px;
+  }
+}
+
+.free-trial {
+  img {
+    position: absolute;
+    margin-left: 580px;
+  }
+  h1 {
+    font-size: 42px;
+    margin-top: 50px;
+  }
+  input {
+    background-color: $dark-blue;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid white;
+    line-height: 2;
+    margin-bottom: 5px;
+  }
+  .free {
+    background-color: $dark-blue;
+    color: white;
+    margin: 50px 150px 90px 0px;
+    padding: 15px 0px 170px 200px;
+  }
+  .submit {
+    padding: 3px 50px;
+    margin: 80px 0px 0px 225px;
+  }
+  .notbold {
+    font-weight: normal;
+  }
+  form {
+    display: table;
+    margin-left: 100px;
+    margin-top: 25px;
+  }
+  p {
+    display: table-row;
+  }
+  label {
+    display: table-row;
+  }
+  input {
+    display: table-row;
+    padding-right: 150px;
+  }
+}
+
+/* Large devices, Wide Screen*/
+@media (min-width: 1200px) {
+}
+
+/*Medium Devices, Desktops*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*Small devices, Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*Main Container*/
+  .topContainer {
+    .blueBuilding {
+      width: 70%;
+    }
+  }
+  .row.topContainer:after {
+    height: 300px;
+  }
+  .solutions {
+    h1 {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    .moreInformation {
+      word-spacing: 20px;
+      margin-bottom: 50px;
+    }
+    .loremInfo {
+      font-size: 16px;
+    }
+    .download {
+      padding: 10px 50px;
+    }
+  }
+  .pictures {
+    .picDescription {
+      min-height: 210px;
+    }
+  }
+
+  .componentTest {
+    display: flex;
+    // display: -webkit-flex;
+    // flex-wrap: wrap;
+    .architecture {
+      overflow: hidden;
+      height: 87%;
+      width: 100%;
+    }
+    //can do calc to get like the left
+    //pic to match the right pic and nav bar
+    .building {
+      height: 66%;
+    }
+    .glass {
+      height: 21%;
+    }
+    .stantec {
+      bottom: 118px;
+    }
+  }
+
+  .free-trial {
+    img {
+      margin-left: 435px;
+      width: 50%;
+    }
+    .free {
+      padding-left: 60px;
+    }
+  }
+
+  .information {
+    .customer {
+      padding: 0 80px;
+    }
+  }
+  .row.topContainer:after {
+    height: 300px;
+  }
+}
+
+/*Extra small devices, phones*/
+@media (max-width: 767px) {
+}
+
+/*phones*/
+@media (max-width: 480px) {
+}

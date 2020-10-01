@@ -1,0 +1,53 @@
+footer{
+    background-color: $gray;
+    color:white;
+}
+
+.bottom-content{
+    h4{
+        margin-bottom: 25px;
+    }
+    h5{
+        font-weight: normal;
+        letter-spacing: 1.1px;
+    }
+}
+
+.information{
+    .contact{ 
+        text-align: center;
+    }
+    .contactUs{
+        padding-left: 70px;
+        padding-right:70px;  
+    }
+    .customer{
+        padding: 0 95px;
+        h5{
+            text-align: right;
+        }
+    }  
+    .socialmedia{
+        text-align: center;
+        .btn{
+            margin-bottom:15px;
+        }
+        .twitter{
+            background-color: white;
+            border-radius: 15px;
+            padding: 7px;
+            margin-right: 20px;
+            color: black;
+        }
+        .linkedin{
+            background-color: white;
+            border-radius: 15px;
+            padding: 7px;
+            color: black;
+        }
+    }
+}
+
+hr{
+    width: 87%;
+}
